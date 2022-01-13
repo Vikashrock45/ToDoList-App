@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 //If you have special characters in your password, you must encode those characters if using your password in a connection string URI.
-// eg., @vik4545 - %40vik4545
+// eg., 
 
 mongoose.connect("mongodb+srv://vikr4545:%40vik4545@cluster0.l1xwm.mongodb.net/todolistDB");
 
